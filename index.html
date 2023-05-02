@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Amar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: cornflowerblue;
+      }
+      h1 {
+        font-size: xx-large;
+        text-transform: uppercase;
+        background-color: dimgray;
+        color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+      h2 {
+        font-size: x-large;
+        text-transform: uppercase;
+        padding-left: 220px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: gold;
+        background-color: rgb(219, 232, 198);
+        text-shadow: 1px 2px 2px gray;
+      }
+      .container {
+        margin-left: 400px;
+        width: 600px;
+        height: 698px;
+        border: 2px solid gold;
+      }
+      .content {
+        width: 600px;
+        height: 600px;
+        background-color: rgb(250, 238, 223);
+      }
+      .menu {
+        margin-bottom: 10px;
+      }
+      i {
+        margin-right: 50px;
+        margin-left: 10px;
+        color: chocolate;
+      }
+      #dish1 {
+        margin-right: 270px;
+        font-size: x-large;
+        text-transform: capitalize;
+        color: green;
+      }
+      #dish2 {
+        margin-right: 278px;
+        font-size: x-large;
+        text-transform: capitalize;
+        color: green;
+      }
+      #dish3 {
+        margin-right: 310px;
+        font-size: x-large;
+        text-transform: capitalize;
+        color: green;
+      }
+      #dish4 {
+        margin-right: 248px;
+        font-size: x-large;
+        text-transform: capitalize;
+        color: green;
+      }
+      #dish5 {
+        margin-right: 257px;
+        font-size: x-large;
+        text-transform: capitalize;
+        color: green;
+      }
+      #comment {
+        display: block;
+        font-size: large;
+        text-transform: capitalize;
+        margin-top: 100px;
+        color: mediumslateblue;
+      }
+      label {
+        font-size: large;
+        margin-top: 150px;
+        margin-left: 200px;
+        display: inline-block;
+        color: maroon;
+      }
+      input {
+        height: 60px;
+        border: 2px solid black;
+        border-radius: 10px;
+      }
+      #feedback {
+        margin-right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Hotel-Amar</h1>
+        <h2>Menu Card</h2>
+      </div>
+      <div class="content">
+        <div class="items">
+          <div class="menu">
+            <i class="fa fa-cutlery" aria-hidden="true"></i>
+            <span id="dish1">Chicken thali</span>
+            <span>210</span>
+            <i class="fa fa-inr" aria-hidden="true"></i>
+          </div>
+          <div class="menu">
+            <i class="fa fa-cutlery" aria-hidden="true"></i>
+            <span id="dish2">Mutton thali</span>
+            <span>380</span>
+            <i class="fa fa-inr" aria-hidden="true"></i>
+          </div>
+          <div class="menu">
+            <i class="fa fa-cutlery" aria-hidden="true"></i>
+            <span id="dish3">egg thali</span>
+            <span>180</span>
+            <i class="fa fa-inr" aria-hidden="true"></i>
+          </div>
+          <div class="menu">
+            <i class="fa fa-cutlery" aria-hidden="true"></i>
+            <span id="dish4">Chicken Biryani</span>
+            <span>220</span>
+            <i class="fa fa-inr" aria-hidden="true"></i>
+          </div>
+          <div class="menu">
+            <i class="fa fa-cutlery" aria-hidden="true"></i>
+            <span id="dish5">mutton biryani</span>
+            <span>320</span>
+            <i class="fa fa-inr" aria-hidden="true"></i>
+          </div>
+          <div class="point">
+            <span id="comment"
+              >Hope your like the Food Items,<br />Thank you for visiting our
+              Hotel.</span
+            >
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+            <i class="fa fa-share" aria-hidden="true"></i>....
+          </div>
+          <form>
+            <label
+              >Please give us feedback...<i
+                class="fa fa-comment"
+                aria-hidden="true"
+                id="feedback"
+              ></i
+            ></label>
+            <input type="text" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
